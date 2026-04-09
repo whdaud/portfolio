@@ -25,20 +25,62 @@
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-content">
-    <p class="hero-sub">PORTFOLIO</p>
-    <h1 class="hero-title">김종명</h1>
-    <p class="hero-desc">기계공학 / 임베디드 시스템 / 열·유동 해석</p>
-    <div class="hero-tags">
-      <span>Python</span>
-      <span>ANSYS Fluent</span>
-      <span>ESP-IDF / FreeRTOS</span>
-      <span>LabVIEW</span>
-      <span>CFD</span>
-      <span>열해석</span>
+  <div class="hero-inner">
+
+    <!-- 왼쪽: 사진 -->
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">
+        <img src="이력서 사진.png" alt="김종명 프로필 사진"
+             onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')" />
+        <div class="photo-fallback">KJM</div>
+      </div>
+      <div class="hero-photo-accent"></div>
     </div>
-    <p class="hero-summary">7개 프로젝트 · 설계 / 해석 / 구현 전 과정 수행</p>
-    <a href="#projects" class="btn-primary">프로젝트 보기</a>
+
+    <!-- 오른쪽: 약력 -->
+    <div class="hero-content">
+      <p class="hero-sub">PORTFOLIO</p>
+      <h1 class="hero-title">김종명</h1>
+      <p class="hero-desc">기계공학 / 임베디드 시스템 / 열·유동 해석</p>
+
+      <div class="hero-bio">
+        <div class="hero-bio-item">
+          <span class="hero-bio-label">학교</span>
+          <span>한양대학교 ERICA · 기계공학과</span>
+        </div>
+        <div class="hero-bio-item">
+          <span class="hero-bio-label">학점</span>
+          <span>4.13 / 4.5</span>
+        </div>
+        <div class="hero-bio-item">
+          <span class="hero-bio-label">경력</span>
+          <span>엠웨이브스 현장실습 (2026.01–03)</span>
+        </div>
+        <div class="hero-bio-item">
+          <span class="hero-bio-label">병역</span>
+          <span>육군 병장 만기제대</span>
+        </div>
+        <div class="hero-bio-item">
+          <span class="hero-bio-label">자격증</span>
+          <span>자동차정비기능사 · OPIc IM2</span>
+        </div>
+      </div>
+
+      <div class="hero-tags">
+        <span>Python</span>
+        <span>ANSYS Fluent</span>
+        <span>ESP-IDF / FreeRTOS</span>
+        <span>LabVIEW</span>
+        <span>CFD</span>
+        <span>열해석</span>
+      </div>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">프로젝트 보기</a>
+        <a href="#contact" class="btn-secondary">연락하기</a>
+      </div>
+    </div>
+
   </div>
   <div class="hero-scroll">▼</div>
 </section>
@@ -47,11 +89,7 @@
 <section id="about">
   <div class="container">
     <h2 class="section-title">About Me</h2>
-    <div class="about-grid">
-      <div class="about-photo">
-        <img src="이력서 사진.png" alt="김종명 프로필 사진" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')" />
-        <div class="photo-fallback">KJM</div>
-      </div>
+    <div class="about-grid about-no-photo">
       <div class="about-info">
         <p class="about-text">
           한양대학교(ERICA) 기계공학과 재학 중으로, 열유체 해석·임베디드 시스템·신호처리를 아우르는
