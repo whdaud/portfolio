@@ -1,0 +1,7 @@
+# 개인 문서 (GitHub에 올리지 않을 파일)
+*.pdf
+자소서_활동정리_STAR (2).md
+
+# OS
+.DS_Store
+Thumbs.db
