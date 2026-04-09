@@ -4,8 +4,8 @@
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   navbar.style.background = window.scrollY > 40
-    ? 'rgba(13,17,23,0.98)'
-    : 'rgba(13,17,23,0.92)';
+    ? 'rgba(255,255,255,0.98)'
+    : 'rgba(255,255,255,0.92)';
 });
 
 // ==========================================
